@@ -13,6 +13,7 @@ public class CalculatorTest {
     public void setUp(){
         calculator = new Calculator();
     }
+
     @Test
     public void test_sum(){
         int result = calculator.sum(2,2);
